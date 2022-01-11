@@ -1,7 +1,6 @@
 package ru.job4j.puzzle;
 
 public class Win {
-
     public static boolean horisontally(int[][] board, int row) {
         boolean rsl = true;
         for (int j = 0; j < board.length; j++) {
